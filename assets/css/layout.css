@@ -6,28 +6,30 @@ body{
 	margin-top: 78px;
   font-family: 'Varela Round', sans-serif;
 }
-
+.orange-text{
+  color: #EF4836
+}
 
 
 /*-------------[ Global: Navbar]-------------------*/
 .hackoose-nav{
 	background: transparent;
-	border-bottom: 0;
+	border-bottom: solid 1px #222;
 	color: #444;
 	padding: 6px 0 5px;
 }
 .hackoose-nav .navbar-brand{
 	color: rgb(68, 186, 121);
   font-size: 30px;
-  line-height: 40px
+  line-height: 30px
 }
 .hackoose-nav .navbar-brand:hover{
   color: rgb(68, 186, 121);
 }
 .hackoose-nav .navbar-nav > li > a {
   color: #727272;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .hackoose-nav .navbar-nav > li > a:hover,
 .hackoose-nav .navbar-nav > li > a:focus  {
