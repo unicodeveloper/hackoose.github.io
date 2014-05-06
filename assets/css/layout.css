@@ -1,57 +1,53 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 
-/*-------------[ Global : Base ]-------------------*/
+
+/*-------------------[ Global : Base ]-------------------*/
 body{
-	background-color: #191919;
-	margin-top: 78px;
-  font-family: 'Varela Round', sans-serif;
-}
-.orange-text{
-  color: #EF4836
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
-/*-------------[ Global: Navbar]-------------------*/
-.hackoose-nav{
-	background: transparent;
-	border-bottom: solid 1px #222;
-	color: #444;
-	padding: 6px 0 5px;
+
+/*-------------------[ Global : Menu ]-------------------*/
+#menu{
+  background: #212121;
 }
-.hackoose-nav .navbar-brand{
-	color: rgb(68, 186, 121);
-  font-size: 30px;
-  line-height: 30px
+#menu .logo{
+  height: 80px;
+  width: 80px;
+  margin:20px auto 0;
+  display: block;
 }
-.hackoose-nav .navbar-brand:hover{
-  color: rgb(68, 186, 121);
-}
-.hackoose-nav .navbar-nav > li > a {
-  color: #727272;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.hackoose-nav .navbar-nav > li > a:hover,
-.hackoose-nav .navbar-nav > li > a:focus  {
-  color: rgb(68, 186, 121);
-}
-.hackoose-nav .navbar-nav > .active > a,
-.hackoose-nav .navbar-nav > .active > a:hover,
-.hackoose-nav .navbar-nav > .active > a:focus {
-  color: rgb(68, 186, 121);
-  background-color: transparent;
-}
-.hackoose-nav .navbar-toggle {
-  border-color: transparent;
-}
-.hackoose-nav .navbar-toggle:hover {
-  background-color: transparent;
-  border-color: #f5f5f5;
-}
-.hackoose-nav .navbar-toggle .icon-bar {
-	background-color: #c5b591;
-}
-.hackoose-nav .navbar-toggle:hover .icon-bar {
-	background-color: #c83252;
+#menu .pure-menu-heading {
+  font-size: 110%;
+  color: #dfdfdf;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  padding: 0 0 20px;
 }
 
+#menu .pure-menu,
+#menu .pure-menu ul {
+  border: none;
+  background: transparent;
+}
+#menu a {
+  color: #999;
+  border: none;
+  padding: 0.8em 2.8em 0.8em 0;
+  border-bottom:1px solid #272727
+}
+#menu .pure-menu li a{
+  text-align: right;
+}
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
+  background: #272727;
+}
+#menu .pure-menu-selected{
+  background: #1f8dd6;
+}
+#menu .pure-menu-selected a {
+  color: #fff;
+}

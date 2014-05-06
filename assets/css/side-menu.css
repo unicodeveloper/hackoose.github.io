@@ -1,0 +1,98 @@
+body {
+  color: #777;
+}
+#layout, #menu, .menu-link {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#layout {
+  position: relative;
+  padding-left: 0;
+}
+#layout.active {
+  position: relative;
+  left: 230px;
+}
+#layout.active #menu {
+  left: 230px;
+  width: 230px;
+}
+#layout.active .menu-link {
+  left: 230px;
+}
+
+#menu {
+  margin-left: -230px;
+  width: 230px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*-------------------[ Menu Toggle ]-------------------*/
+.menu-link {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+  z-index: 10;
+  width: 2em;
+  height: auto;
+  padding: 2.1em 1.6em;
+}
+.menu-link:hover, .menu-link:focus {
+  background: #000;
+}
+.menu-link span {
+  position: relative;
+  display: block;
+}
+.menu-link span, .menu-link span:before, .menu-link span:after {
+  background-color: #fff;
+  width: 100%;
+  height: 0.2em;
+}
+.menu-link span:before, .menu-link span:after {
+  position: absolute;
+  margin-top: -0.6em;
+  content:" ";
+}
+.menu-link span:after {
+  margin-top: 0.6em;
+}
+
+
+/* -------------------[ Responsive Styles ]-------------------*/
+@media (min-width: 48em) {
+  #layout {
+    padding-left: 230px;
+    left: 0;
+  }
+  #menu {
+    left: 230px;
+  }
+  .menu-link {
+    position: fixed;
+    left: 230px;
+    display: none;
+  }
+  #layout.active .menu-link {
+    left: 230px;
+  }
+}
+
+
+
+
+
+
