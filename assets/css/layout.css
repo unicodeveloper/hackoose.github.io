@@ -71,9 +71,26 @@ body{
 
 
 
-
-
-
+/*-------------------[ Global : Boilerplate Grid ]-------------------*/
+body.home{
+  background-color: #212121
+}
+.main-text{
+  text-align: center;
+}
+.home .title{
+  font-size: 40px;
+  color: #ddd
+}
+.home .home-icon{
+  height: 200px
+}
+.home .subtitle{
+  font-family: 'Game of thrones';
+  color: #aaa;
+  padding: 20px;
+  font-size: 40px;
+}
 
 
 
