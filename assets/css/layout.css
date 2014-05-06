@@ -53,7 +53,7 @@ body{
   color: #fff;
 }
 
-/*-------------------[ Global : Mainhead ]-------------------*/
+/*-------------------[ Global : Main Head ]-------------------*/
 .main-head{
   padding: 15px;
   background-color: #fff;
@@ -64,6 +64,10 @@ body{
   font-weight: lighter;
 }
 
+/*-------------------[ Global : Boilerplate Grid ]-------------------*/
+.grid-wrap{
+  padding: 0 15px;
+}
 
 
 
