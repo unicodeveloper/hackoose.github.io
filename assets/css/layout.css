@@ -1,11 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
  @font-face {
-  font-family: 'Game of thrones';
+  font-family:'Game of thrones';
   src: url(../fonts/got.ttf);
 }
 /*-------------------[ Global : Base ]-------------------*/
- body {
-  font-family:'Source Sans Pro', sans-serif;
+ body, .pure-g-r [class *="pure-u"]{
+  font-family:'Source Sans Pro', sans-serif !important;
+}
+body {
   color: #000;
 }
 /*-------------------[ Global : Menu ]-------------------*/
@@ -53,6 +55,7 @@
   padding: 15px;
   background-color: #fff;
   border-bottom: solid 1px #eee;
+  margin-bottom: 20px;
 }
 .main-head .title {
   font-size: 20px;
@@ -62,7 +65,28 @@
  .grid-wrap {
   padding: 0 15px;
 }
-/*-------------------[ Global : Boilerplate Grid ]-------------------*/
+.thumnail {
+  margin: 0 auto;
+  min-height: 300px;
+  border-radius: 1.4%;
+  margin: 15px;
+  color: #444;
+  display: block;
+  border:solid 1px #e8e8e8;
+  text-decoration: none;
+  background-image: url(../img/code_bg.png);
+  background-size: cover;
+}
+.thumnail .title{
+  font-size: 24px;
+  padding: 15px;
+  font-weight: 900;
+  color: #22313F
+}
+
+
+
+/*-------------------[ Global : Splash ]-------------------*/
  body.home {
   background-color: #000
 }
