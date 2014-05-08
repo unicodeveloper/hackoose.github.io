@@ -10,6 +10,9 @@
 body {
   color: #000;
 }
+.wrap{
+  padding: 0 15px;
+}
 /*-------------------[ Global : Menu ]-------------------*/
  #menu {
   background: #212121;
@@ -45,7 +48,7 @@ body {
   background: #272727;
 }
 #menu .pure-menu-selected {
-  background: #1f8dd6;
+  background: #272727;
 }
 #menu .pure-menu-selected a {
   color: #fff;
@@ -70,21 +73,35 @@ body {
   min-height: 300px;
   border-radius: 1.4%;
   margin: 15px;
-  color: #444;
+  padding: 15px;
+  color: #777;
   display: block;
   border:solid 1px #e8e8e8;
   text-decoration: none;
   background-image: url(../img/code_bg.png);
   background-size: cover;
+  line-height: 1.4em;
 }
 .thumnail .title{
   font-size: 24px;
-  padding: 15px;
   font-weight: 900;
-  color: #22313F
+  color: #22313F;
+  padding-bottom: 10px;
 }
 
 
+/*-------------------[ Global : aoth ]-------------------*/
+.oathwrap{
+  padding: 0 15px;
+}
+.oaths{
+  color: #555;
+  font-size: 17px;
+  line-height: 30px;
+}
+.oaths li{
+  
+}
 
 /*-------------------[ Global : Splash ]-------------------*/
  body.home {
