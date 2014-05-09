@@ -11,18 +11,52 @@
   <link rel="stylesheet" href="assets/css/layout.css">
 </head>
 
-<body class="home">
-  <div class="main-text">
-    <img class="home-icon" src="assets/img/blade.png" alt="">
-    <div class="subtitle">
-      <span>H</span>ackathon <span>i</span>s <span>c</span>oming
+<body>
+
+  <div id="layout">
+
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+      <span></span>
+    </a>
+
+    <div id="menu">
+      <div class="pure-menu pure-menu-open">
+        <img class="logo" src="assets/img/wave.svg" alt="">
+        <a class="pure-menu-heading" href="index.html">Hackoose</a>
+        <ul>
+          <li><a href="boilerplates.html">Boilerplates</a>
+          </li>
+          <li><a href="tips.html">Hack Tips</a>
+          </li>
+          <li><a href="oath.html">Hacker Oath</a>
+          </li>
+        </ul>
+      </div>
+      <div class="author">
+        Project by &nbsp;<a href="http://www.ravisuhag.com">Ravi Suhag</a>
+      </div>
     </div>
-    <br>
-    <br>
-    <a href="oath.html" class="pure-button button-error">Hackoose Yourself !</a>
+
+    <div id="main" class="text-center">
+      <img class="home-blade" src="assets/img/blade_white.png" alt="">
+      <div class="home-title">
+        Hackathon is coming
+      </div>
+      <div class="home-text">
+        Kick-start your project with boilerplates on latest web technology to save time and build fast, robust and adaptable web apps or sites.
+      </div>
+      <a href="oath.html" class="pure-button button-error home-btn">Hackoose Yourself !</a>
+    </div>
+    <div class="fame text-center">
+      <iframe src="http://ghbtns.com/github-btn.html?user=hackoose&repo=hackoose.github.io&type=watch&count=true" height="30" width="80" frameborder="0" scrolling="0" style="width:88px; height: 30px;" allowTransparency="true"></iframe>
+      <iframe src="http://ghbtns.com/github-btn.html?user=hackoose&repo=hackoose.github.io&type=fork&count=true" height="30" width="80" frameborder="0" scrolling="0" style="width:88px; height: 30px;" allowTransparency="true"></iframe>
+      <iframe src="http://ghbtns.com/github-btn.html?user=ravisuhag&type=follow&count=true" height="30" width="168" frameborder="0" scrolling="0" style="width:168px; height: 30px;" allowTransparency="true"></iframe>
+    </div>
   </div>
+
+  <script src="assets/js/ui.js"></script>
 
 </body>
 
 </html>
-

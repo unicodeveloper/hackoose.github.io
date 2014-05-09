@@ -3,18 +3,33 @@
   font-family:'Game of thrones';
   src: url(../fonts/got.ttf);
 }
+
 /*-------------------[ Global : Base ]-------------------*/
- body, .pure-g-r [class *="pure-u"]{
+ body, .pure-g-r[class *="pure-u"] {
   font-family:'Source Sans Pro', sans-serif !important;
 }
 body {
-  color: #000;
+  color: #333;
 }
-.wrap{
+.wrap {
   padding: 0 15px;
 }
+.text-center{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.button-error {
+  background: rgb(202, 60, 60);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  text-shadow:none;
+}
+
 /*-------------------[ Global : Menu ]-------------------*/
- #menu {
+#menu {
   background: #212121;
 }
 #menu .logo {
@@ -30,21 +45,22 @@ body {
   font-size: 25px;
   text-align: center;
   padding: 0 0 20px;
+  border-bottom:solid 1px #272727;
 }
-#menu .pure-menu, #menu .pure-menu ul {
+#menu .pure-menu,
+#menu .pure-menu ul {
   border: none;
   background: transparent;
 }
-#menu a {
+#menu .pure-menu li a {
+  text-align: right;
   color: #999;
   border: none;
   padding: 0.8em 2.8em 0.8em 0;
   border-bottom:1px solid #272727
 }
-#menu .pure-menu li a {
-  text-align: right;
-}
-#menu .pure-menu li a:hover, #menu .pure-menu li a:focus {
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
   background: #272727;
 }
 #menu .pure-menu-selected {
@@ -53,6 +69,25 @@ body {
 #menu .pure-menu-selected a {
   color: #fff;
 }
+#menu .author{
+  text-align: right;
+  box-sizing:border-box;
+  padding: 10px 20px 30px;
+  font-style: italic;
+  color: #444;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+#menu .author a{
+  display: inline;
+  border: 0;
+  color: #999
+}
+#menu .author a:hover{
+  color: #ccc;
+}
+
 /*-------------------[ Global : Main Head ]-------------------*/
  .main-head {
   padding: 15px;
@@ -64,6 +99,48 @@ body {
   font-size: 20px;
   font-weight: lighter;
 }
+
+
+/*-------------------[ Modules : Home Page  ]-------------------*/
+
+.home-blade{
+  max-height: 300px;
+  padding-top: 40px;
+}
+.home-title {
+  font-family:'Game of thrones';
+  color: #222;
+  margin-top:-5px;
+  padding: 0px 0px 20px;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.home-text{
+  padding: 0 15px;
+  text-align: center;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.home-btn{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.fame{
+  padding-top: 30px;
+}
+.fame .iframe{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
 /*-------------------[ Global : Boilerplate Grid ]-------------------*/
  .grid-wrap {
   padding: 0 15px;
@@ -82,27 +159,23 @@ body {
   background-size: cover;
   line-height: 1.4em;
 }
-.thumnail .title{
+.thumnail .title {
   font-size: 24px;
   font-weight: 900;
   color: #22313F;
   padding-bottom: 10px;
 }
-
-
 /*-------------------[ Global : aoth ]-------------------*/
-.oathwrap{
+ .oathwrap {
   padding: 0 15px;
 }
-.oaths{
+.oaths {
   color: #555;
   font-size: 17px;
   line-height: 30px;
 }
-.oaths li{
-  
+.oaths li {
 }
-
 /*-------------------[ Global : Splash ]-------------------*/
  body.home {
   background-color: #000
@@ -124,11 +197,29 @@ body {
 .home .subtitle span {
   font-size: 50px
 }
-.button-error {
-  background: rgb(202, 60, 60);
-  color: rgba(255, 255, 255, 0.8);
-  border-radius: 4px;
-  /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);*/
-  text-shadow:none;
-  font-size: 20px;
+
+/*-------------------[ Global : Tips page ]-------------------*/
+ .tip-thumnail {
+  margin: 0 auto;
+  border-radius: 1.4%;
+  padding: 30px 0;
+  color: #777;
+  display: block;
+  text-decoration: none;
+  border-bottom: solid 1px #eee;
+  max-width: 900px;
+}
+.tip-thumnail .title {
+  font-size: 25px;
+  font-weight: 500;
+  color: #02111F;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: block;
+}
+.tip-thumnail .title:hover {
+  color: #000;
+}
+.tip-wrap {
+  padding: 0 20px;
 }
