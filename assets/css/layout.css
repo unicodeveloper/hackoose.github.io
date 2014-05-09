@@ -135,20 +135,12 @@ a{
   display: inline-block;
 }
 
-
-
-
-
-
-
-
 /*-------------------[ Global : Boilerplate Grid ]-------------------*/
  .grid-wrap {
   padding: 0 15px;
 }
 .thumnail {
   margin: 0 auto;
-  min-height: 300px;
   border-radius: 1.4%;
   margin: 15px;
   padding: 15px;
@@ -160,13 +152,17 @@ a{
   background-size: cover;
   line-height: 1.4em;
 }
+.thumnail p{
+  min-height: 100px
+}
 .thumnail .title {
   font-size: 24px;
   font-weight: 900;
   color: #22313F;
   padding-bottom: 10px;
+  display: block;
 }
-/*-------------------[ Global : aoth ]-------------------*/
+/*-------------------[ Module : oath ]-------------------*/
  .oathwrap {
   padding: 0 15px;
 }
@@ -177,29 +173,8 @@ a{
 }
 .oaths li {
 }
-/*-------------------[ Global : Splash ]-------------------*/
- body.home {
-  background-color: #000
-}
-.main-text {
-  text-align: center;
-  padding-top: 40px;
-}
-.home .home-icon {
-  height: 350px
-}
-.home .subtitle {
-  font-family:'Game of thrones';
-  color: #ccc;
-  padding: 0 20px;
-  font-size: 40px;
-  letter-spacing: 0.2em;
-}
-.home .subtitle span {
-  font-size: 50px
-}
 
-/*-------------------[ Global : Tips page ]-------------------*/
+/*-------------------[ Module : Tips page ]-------------------*/
  .tip-thumnail {
   margin: 0 auto;
   border-radius: 1.4%;
