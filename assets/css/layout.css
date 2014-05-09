@@ -82,7 +82,8 @@ a{
 #menu .author a{
   display: inline;
   border: 0;
-  color: #999
+  color: #999;
+  padding: 0;
 }
 #menu .author a:hover{
   color: #ccc;
