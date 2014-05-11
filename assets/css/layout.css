@@ -151,6 +151,7 @@ a{
   background-image: url(../img/code_bg.png);
   background-size: cover;
   line-height: 1.4em;
+  min-height: 252px
 }
 .thumnail p{
   min-height: 100px
