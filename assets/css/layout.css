@@ -163,17 +163,7 @@ a{
   padding-bottom: 10px;
   display: block;
 }
-/*-------------------[ Module : oath ]-------------------*/
- .oathwrap {
-  padding: 0 15px;
-}
-.oaths {
-  color: #555;
-  font-size: 17px;
-  line-height: 30px;
-}
-.oaths li {
-}
+
 
 /*-------------------[ Module : Tips page ]-------------------*/
  .tip-thumnail {
