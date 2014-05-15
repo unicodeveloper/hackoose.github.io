@@ -18,11 +18,12 @@ We welcome feature requests. Please make sure they are within scope of hackoose'
 **Pull Requests**
 
 Please check to make sure your plans fall within hackoose's scope.
-Fork hackoose
-Branch off of the 'develop' branch.
-Implement your changes.
-Submit a Pull Request.
-Important: By issuing a Pull Request you agree to allow the project owners to license your work under the terms of the License.
+- Fork hackoose
+- Branch off of the 'develop' branch.
+- Implement your changes.
+- Submit a Pull Request.
+
+*Important:* By issuing a Pull Request you agree to allow the project owners to license your work under the terms of the License.
 
 ## Author
 
